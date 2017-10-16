@@ -11,7 +11,6 @@ class App extends Component {
     return (
       <div>
         <Counter />
-        <Option />
         <Button />
       </div>
     );

@@ -7,7 +7,9 @@ class Button extends Component {
         return (
             <div>
                 <button onClick={this.props.onIncrement}>+</button>
+                <a>증가</a>
                 <button onClick={this.props.onDecrement}>-</button>
+                <a>감소</a>
             </div>
         );
     }
